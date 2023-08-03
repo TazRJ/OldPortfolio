@@ -104,7 +104,6 @@
 
 				// Re-enable overflow on body.
 					$body.css('overflow-x', 'auto');
-
 			}
 
 		// IE: Various fixes.

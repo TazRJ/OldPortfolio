@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.hidden{
+	display: none;
+}
+
 /* Page */
 
 	@-moz-keyframes load-spinner {
@@ -244,6 +248,12 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+	@media screen{
+		#firstBtnDown{
+			display: none;
+		}
+	}
+
 	@media screen and (max-width: 736px) {
 
 		html {
@@ -256,6 +266,13 @@ input, select, textarea {
 			overflow-y: auto;
 		}
 
+		#firstBtn{
+			display: none;
+		}
+
+		#firstBtnDown{
+			display: block;
+		}
 	}
 
 	@media screen and (max-width: 480px) {
